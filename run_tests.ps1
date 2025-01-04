@@ -1,4 +1,4 @@
-$TEST_DIR = "D:\OneDrive_VinUni\OneDrive - VINACADEMY LLC\CourseData\Computer Organization\Project_RISCV\COMP2020_RISCV_Interpreter\test_cases_104"
+$TEST_DIR = "D:\OneDrive_VinUni\OneDrive - VINACADEMY LLC\CourseData\Computer Organization\Project_RISCV\COMP2020_RISCV_Interpreter\tests"
 $EXECUTABLE = "D:\OneDrive_VinUni\OneDrive - VINACADEMY LLC\CourseData\Computer Organization\Project_RISCV\COMP2020_RISCV_Interpreter\riscv_interpreter.exe"
 
 # Kiểm tra xem file thực thi có tồn tại không
@@ -43,6 +43,7 @@ Get-ChildItem "$TEST_DIR\*_input.txt" | ForEach-Object {
         Write-Host "Test ${BASE_NAME}: FAILED"
         Write-Host "Differences:"
         Compare-Object (Get-Content $ACTUAL_FILE) (Get-Content $EXPECTED_FILE)
+        break
     } else {
         Write-Host "Test ${BASE_NAME}: PASSED"
     }

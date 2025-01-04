@@ -1,0 +1,119 @@
+## start[1] = 54
+## start[2] = 77
+## start[3] = 19
+## start[4] = 94
+## start[5] = 24
+## start[6] = 74
+## start[7] = 44
+## start[8] = 100
+## start[9] = 14
+## start[10] = 96
+## start[11] = 81
+## start[12] = 42
+## start[13] = 84
+## start[14] = 96
+## start[15] = 80
+## start[16] = 9
+## start[17] = 81
+## start[18] = 69
+## start[19] = 88
+## start[20] = 44
+## start[21] = 69
+## start[22] = 39
+## start[23] = 0
+## start[24] = 39
+## start[25] = 82
+## start[26] = 72
+## start[27] = 55
+## start[28] = 96
+## start[29] = 80
+## start[30] = 13
+## start[31] = 96
+lb x29, 91(x16)
+xori x9, x14, 1858
+sb x18, 31(x28)
+slti x20, x31, -1776
+or x16, x21, x31
+lui x25, 1506
+add x31, x29, x10
+lui x11, 2017
+lui x5, 394
+andi x14, x13, 999
+lui x26, -1001
+xor x3, x8, x4
+addi x30, x29, 913
+sw x22, 20(x26)
+xor x17, x4, x18
+sub x9, x24, x14
+andi x16, x22, -4
+xori x8, x14, 778
+lw x5, 80(x23)
+lui x17, 2023
+sb x20, 3(x31)
+andi x3, x5, -309
+lui x15, 1148
+slti x10, x27, -266
+nor x20, x6, x29
+sub x21, x25, x17
+sll x11, x6, x23
+andi x9, x7, -1498
+nor x23, x7, x21
+lui x4, -175
+lui x17, -802
+lui x20, 1316
+sb x31, 21(x8)
+lui x16, 292
+sw x22, 78(x23)
+xori x11, x15, 637
+lui x17, -1885
+or x5, x21, x14
+lui x17, -263
+sw x27, 43(x30)
+addi x31, x4, -227
+lui x21, -1162
+lw x30, 17(x26)
+xor x3, x26, x31
+sra x11, x23, x17
+sll x16, x14, x7
+lw x26, 17(x25)
+lw x21, 37(x24)
+ori x4, x23, -445
+lui x29, -492
+lui x19, 1501
+and x27, x16, x15
+lui x20, 1760
+lui x13, 667
+lui x29, -145
+sb x8, 54(x27)
+lui x30, -1724
+xori x22, x18, -527
+sub x21, x24, x17
+lui x4, 1632
+sw x30, 91(x6)
+ori x10, x1, -530
+andi x26, x21, 43
+xori x23, x19, -1731
+sw x24, 35(x28)
+sw x7, 11(x18)
+or x12, x25, x22
+or x23, x21, x5
+lui x17, 1324
+addi x26, x7, 374
+xor x16, x1, x28
+xor x11, x9, x22
+lui x18, -366
+xor x7, x24, x24
+lui x24, -1078
+lui x16, 580
+lui x18, 789
+andi x29, x12, 182
+sb x19, 10(x5)
+lw x5, 18(x9)
+xori x17, x10, 1946
+ori x29, x8, 222
+sw x26, 19(x18)
+or x9, x23, x29
+sb x15, 94(x25)
+lw x19, 46(x2)
+sll x22, x29, x5
+lui x29, 1397

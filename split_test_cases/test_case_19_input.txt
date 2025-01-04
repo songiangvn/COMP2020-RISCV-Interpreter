@@ -1,0 +1,98 @@
+## start[1] = 2
+## start[2] = 51
+## start[3] = 18
+## start[4] = 23
+## start[5] = 46
+## start[6] = 73
+## start[7] = 11
+## start[8] = 49
+## start[9] = 49
+## start[10] = 6
+## start[11] = 24
+## start[12] = 1
+## start[13] = 63
+## start[14] = 90
+## start[15] = 100
+## start[16] = 72
+## start[17] = 37
+## start[18] = 15
+## start[19] = 82
+## start[20] = 43
+## start[21] = 45
+## start[22] = 88
+## start[23] = 8
+## start[24] = 4
+## start[25] = 89
+## start[26] = 61
+## start[27] = 49
+## start[28] = 32
+## start[29] = 28
+## start[30] = 70
+## start[31] = 33
+slt x16, x18, x5
+lui x7, -1668
+ori x14, x21, 2044
+ori x1, x9, -424
+ori x1, x1, 1753
+slti x21, x30, -1228
+andi x13, x23, -1461
+ori x31, x21, -1520
+sra x19, x23, x4
+nor x3, x31, x13
+lui x30, 1087
+sb x20, 16(x24)
+lui x14, 839
+xor x16, x5, x14
+lui x7, -1586
+lui x21, -669
+lb x25, 87(x24)
+sw x2, 84(x24)
+slt x20, x21, x8
+addi x21, x12, -700
+lui x22, -1556
+slti x3, x26, 559
+lui x1, 418
+sb x16, 90(x21)
+or x21, x23, x6
+sra x30, x21, x6
+ori x27, x17, -1699
+andi x25, x30, 80
+nor x6, x4, x4
+sub x13, x9, x10
+slt x27, x20, x11
+ori x31, x1, 1151
+lui x27, -564
+lui x19, 107
+lb x7, 27(x19)
+lb x25, 65(x13)
+add x22, x16, x13
+lb x30, 27(x19)
+sw x28, 88(x31)
+sub x31, x23, x22
+lui x2, 560
+sb x20, 46(x12)
+or x12, x16, x20
+lui x16, 292
+lui x15, -914
+slti x24, x29, -883
+sll x20, x30, x12
+xor x19, x6, x30
+xori x5, x24, 1365
+addi x17, x9, -971
+lui x27, 1256
+lui x6, 1921
+xori x3, x17, -1084
+xori x7, x22, -1755
+and x10, x11, x14
+lb x16, 84(x18)
+sw x13, 12(x29)
+add x9, x29, x1
+sb x29, 48(x5)
+lw x30, 70(x7)
+ori x18, x3, -233
+sb x12, 37(x20)
+andi x15, x14, 563
+sll x13, x7, x30
+lui x13, -1180
+xori x31, x4, -254
+sw x12, 28(x2)

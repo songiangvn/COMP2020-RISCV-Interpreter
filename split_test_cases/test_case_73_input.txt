@@ -1,0 +1,127 @@
+## start[1] = 69
+## start[2] = 39
+## start[3] = 26
+## start[4] = 59
+## start[5] = 3
+## start[6] = 2
+## start[7] = 93
+## start[8] = 54
+## start[9] = 100
+## start[10] = 82
+## start[11] = 9
+## start[12] = 7
+## start[13] = 91
+## start[14] = 65
+## start[15] = 12
+## start[16] = 73
+## start[17] = 7
+## start[18] = 47
+## start[19] = 6
+## start[20] = 43
+## start[21] = 36
+## start[22] = 54
+## start[23] = 31
+## start[24] = 46
+## start[25] = 38
+## start[26] = 37
+## start[27] = 81
+## start[28] = 69
+## start[29] = 15
+## start[30] = 51
+## start[31] = 74
+sw x11, 59(x1)
+or x26, x21, x5
+slti x21, x5, 728
+slti x25, x14, -960
+lui x1, -1428
+ori x22, x19, 179
+slti x10, x20, -1396
+lui x29, 1414
+slt x27, x21, x5
+slt x22, x31, x31
+lw x17, 2(x22)
+lb x21, 87(x29)
+nor x23, x8, x3
+sw x8, 38(x17)
+sra x23, x2, x20
+xori x11, x27, -1167
+ori x24, x25, 933
+xor x5, x30, x7
+lui x27, 461
+lb x10, 60(x6)
+lui x12, 1159
+add x27, x6, x3
+or x3, x7, x3
+sb x21, 73(x25)
+add x20, x31, x29
+sb x31, 24(x18)
+lui x25, -1526
+lw x22, 6(x24)
+or x4, x17, x31
+and x25, x27, x14
+lw x16, 61(x15)
+lw x4, 97(x15)
+sb x2, 90(x8)
+slti x17, x12, 665
+slti x14, x9, 386
+lb x30, 45(x13)
+add x1, x17, x2
+lui x13, -1952
+slt x3, x8, x22
+sw x1, 16(x16)
+sb x13, 41(x12)
+or x18, x26, x8
+lui x10, -529
+addi x18, x7, 265
+lui x5, -1560
+lui x24, -1967
+lui x19, -834
+andi x24, x27, -862
+xori x8, x29, 1369
+or x3, x30, x22
+xori x19, x25, 571
+lw x5, 61(x25)
+xori x18, x11, 670
+sw x13, 26(x29)
+addi x8, x22, 1291
+sll x6, x10, x20
+add x25, x14, x24
+lw x19, 80(x12)
+xori x13, x3, 661
+lui x20, 535
+sw x26, 42(x19)
+lw x5, 53(x17)
+lui x16, -1459
+lui x15, -1926
+slt x2, x14, x22
+lui x14, -1795
+and x10, x21, x15
+ori x27, x20, 681
+or x22, x16, x10
+sra x7, x13, x31
+sb x30, 42(x5)
+lui x6, 78
+ori x15, x3, 778
+xori x15, x26, 1882
+slt x1, x11, x12
+addi x14, x15, -1641
+lui x10, 1205
+slti x21, x12, -121
+and x27, x14, x6
+ori x9, x13, 694
+lb x8, 35(x31)
+slti x25, x26, 1363
+ori x27, x11, -621
+slt x29, x15, x16
+lui x12, -385
+lui x11, -748
+lb x16, 7(x9)
+addi x20, x24, -2014
+lui x11, 1267
+sb x15, 83(x7)
+add x15, x19, x26
+or x15, x26, x5
+ori x26, x17, 527
+slti x10, x8, 489
+lui x1, 419
+lui x16, -1905

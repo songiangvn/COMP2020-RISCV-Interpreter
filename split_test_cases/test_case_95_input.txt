@@ -1,0 +1,128 @@
+## start[1] = 93
+## start[2] = 0
+## start[3] = 69
+## start[4] = 18
+## start[5] = 19
+## start[6] = 15
+## start[7] = 81
+## start[8] = 44
+## start[9] = 13
+## start[10] = 8
+## start[11] = 74
+## start[12] = 27
+## start[13] = 72
+## start[14] = 53
+## start[15] = 94
+## start[16] = 88
+## start[17] = 93
+## start[18] = 0
+## start[19] = 52
+## start[20] = 92
+## start[21] = 57
+## start[22] = 21
+## start[23] = 75
+## start[24] = 39
+## start[25] = 65
+## start[26] = 88
+## start[27] = 73
+## start[28] = 71
+## start[29] = 100
+## start[30] = 100
+## start[31] = 77
+ori x20, x8, -1478
+lw x6, 25(x7)
+lb x18, 73(x22)
+ori x30, x30, 430
+sb x24, 25(x26)
+or x8, x20, x13
+slti x25, x19, 1576
+add x29, x31, x20
+slt x23, x17, x16
+sw x17, 39(x3)
+ori x12, x8, -676
+add x13, x30, x4
+slti x3, x6, -1252
+lb x30, 7(x28)
+addi x21, x28, -1033
+ori x30, x25, -67
+andi x9, x13, 1001
+andi x15, x3, 826
+lui x13, -229
+addi x6, x3, 1284
+slti x27, x5, -945
+lb x16, 89(x29)
+lb x13, 29(x27)
+xor x18, x12, x15
+lui x27, -1119
+lui x27, -1027
+lui x13, -1226
+lui x11, 1308
+addi x1, x3, -543
+lui x1, -1699
+andi x25, x26, 2037
+sub x4, x30, x9
+lui x16, -973
+xori x5, x8, -727
+xori x6, x16, -1591
+lui x3, 19
+xor x8, x12, x9
+sb x9, 46(x16)
+lui x17, -1287
+lui x1, -153
+andi x16, x9, 1501
+lui x17, -184
+xor x19, x25, x20
+sw x22, 63(x20)
+sw x23, 94(x20)
+slt x8, x7, x5
+nor x20, x4, x25
+andi x29, x25, -486
+lui x15, -1649
+sw x30, 8(x10)
+lui x15, -529
+lw x14, 37(x19)
+lui x15, -1428
+xori x10, x15, 248
+lui x5, 1933
+lui x13, -1729
+sw x5, 3(x26)
+xori x6, x4, 259
+xori x10, x19, 676
+lui x25, 560
+lui x17, -140
+nor x23, x15, x12
+sw x19, 12(x30)
+xori x31, x29, -1810
+lui x27, -1811
+lui x22, 855
+sb x7, 46(x8)
+lui x29, -1558
+lui x18, 1107
+lui x4, 857
+addi x8, x15, -318
+lui x31, 1159
+lb x15, 72(x7)
+sb x25, 58(x21)
+sll x11, x28, x3
+and x28, x25, x17
+and x27, x7, x10
+andi x20, x27, 1501
+lui x6, -669
+lui x4, 693
+sra x7, x4, x20
+sb x5, 34(x23)
+sb x8, 83(x31)
+lui x21, -1625
+andi x8, x23, -1227
+andi x13, x23, 1301
+and x17, x25, x8
+and x25, x30, x31
+lw x29, 18(x2)
+lui x5, 1125
+andi x17, x31, 730
+lui x9, 925
+lui x14, -1946
+ori x4, x14, 633
+or x13, x18, x15
+lui x9, 1337
+sra x13, x23, x9

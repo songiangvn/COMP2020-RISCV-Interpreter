@@ -1,0 +1,37 @@
+## start[1] = 0
+## start[2] = 14
+## start[3] = 81
+## start[4] = 77
+## start[5] = 81
+## start[6] = 22
+## start[7] = 69
+## start[8] = 85
+## start[9] = 16
+## start[10] = 41
+## start[11] = 1
+## start[12] = 65
+## start[13] = 25
+## start[14] = 64
+## start[15] = 75
+## start[16] = 8
+## start[17] = 83
+## start[18] = 37
+## start[19] = 42
+## start[20] = 11
+## start[21] = 91
+## start[22] = 70
+## start[23] = 46
+## start[24] = 41
+## start[25] = 22
+## start[26] = 95
+## start[27] = 71
+## start[28] = 27
+## start[29] = 37
+## start[30] = 81
+## start[31] = 13
+lui x5, 1237
+add x21, x23, x13
+sb x26, 93(x17)
+sub x9, x22, x6
+lui x22, 469
+lb x2, 13(x23)

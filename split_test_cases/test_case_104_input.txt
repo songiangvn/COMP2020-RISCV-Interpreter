@@ -1,0 +1,45 @@
+## start[1] = 15
+## start[2] = 81
+## start[3] = 48
+## start[4] = 17
+## start[5] = 32
+## start[6] = 44
+## start[7] = 59
+## start[8] = 45
+## start[9] = 80
+## start[10] = 71
+## start[11] = 15
+## start[12] = 68
+## start[13] = 46
+## start[14] = 13
+## start[15] = 12
+## start[16] = 36
+## start[17] = 82
+## start[18] = 80
+## start[19] = 34
+## start[20] = 8
+## start[21] = 72
+## start[22] = 40
+## start[23] = 52
+## start[24] = 92
+## start[25] = 52
+## start[26] = 30
+## start[27] = 32
+## start[28] = 99
+## start[29] = 26
+## start[30] = 74
+## start[31] = 22
+xori x9, x15, 429
+and x17, x30, x3
+add x4, x27, x26
+sb x13, 22(x28)
+sb x24, 34(x23)
+lui x26, 753
+lw x18, 49(x21)
+sb x24, 21(x31)
+lb x31, 55(x21)
+lw x21, 34(x30)
+lui x20, 776
+xor x22, x16, x28
+add x22, x30, x5
+lb x26, 59(x15)

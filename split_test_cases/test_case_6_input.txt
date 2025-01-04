@@ -1,0 +1,2 @@
+## start[1] = 0xFFFFFFFC
+LW x3, 0(x1)

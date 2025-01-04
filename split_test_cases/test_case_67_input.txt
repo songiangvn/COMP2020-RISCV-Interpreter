@@ -1,0 +1,122 @@
+## start[1] = 31
+## start[2] = 40
+## start[3] = 60
+## start[4] = 66
+## start[5] = 76
+## start[6] = 15
+## start[7] = 80
+## start[8] = 38
+## start[9] = 96
+## start[10] = 50
+## start[11] = 43
+## start[12] = 28
+## start[13] = 11
+## start[14] = 78
+## start[15] = 54
+## start[16] = 21
+## start[17] = 4
+## start[18] = 9
+## start[19] = 81
+## start[20] = 88
+## start[21] = 44
+## start[22] = 99
+## start[23] = 44
+## start[24] = 34
+## start[25] = 5
+## start[26] = 4
+## start[27] = 11
+## start[28] = 57
+## start[29] = 69
+## start[30] = 100
+## start[31] = 72
+ori x1, x8, -1521
+sw x15, 95(x23)
+lui x25, 1567
+lui x30, 606
+sw x19, 86(x21)
+sub x9, x3, x15
+addi x13, x30, 1847
+lui x27, 128
+slt x30, x19, x12
+lw x24, 61(x20)
+lui x17, -1673
+lui x31, 792
+ori x24, x4, 1549
+sra x2, x11, x25
+lui x26, 530
+lui x9, 1964
+sb x11, 25(x11)
+lui x15, -1505
+addi x4, x9, 651
+slt x19, x19, x31
+add x7, x31, x19
+lui x13, -98
+add x11, x8, x13
+lb x23, 95(x11)
+xor x22, x5, x12
+sw x12, 92(x29)
+lui x13, 865
+lui x2, 151
+lui x28, -1939
+lui x30, -898
+or x12, x5, x28
+lui x21, 1851
+lw x18, 20(x24)
+lui x4, 557
+lw x26, 88(x5)
+slt x25, x22, x19
+sra x29, x10, x29
+sra x30, x7, x4
+andi x6, x25, -151
+lw x17, 100(x7)
+lb x28, 2(x17)
+lui x13, -1813
+lw x15, 68(x12)
+lui x23, -1334
+addi x18, x2, 1847
+andi x11, x31, -1010
+lui x6, 1700
+sb x13, 46(x27)
+sll x20, x2, x3
+lui x4, -756
+lui x25, 1796
+lb x10, 23(x29)
+sb x8, 33(x12)
+lb x26, 47(x25)
+slt x12, x1, x28
+lui x24, -1699
+lui x8, -639
+lui x20, -441
+lb x10, 48(x22)
+xori x19, x14, 1302
+slt x16, x24, x16
+ori x14, x12, 1187
+lui x28, -412
+lui x14, 1757
+xori x11, x28, -1958
+lb x28, 50(x10)
+andi x25, x30, -286
+sra x2, x13, x7
+lui x12, -1371
+lui x11, 1946
+lui x12, -312
+lw x7, 79(x15)
+sb x26, 70(x11)
+lb x5, 57(x24)
+ori x2, x10, 1729
+sb x21, 34(x9)
+sb x1, 41(x10)
+add x13, x17, x5
+lw x24, 64(x2)
+sb x8, 65(x8)
+sw x21, 55(x10)
+lui x22, 1685
+lui x13, 873
+sra x10, x26, x7
+lui x6, 922
+sb x3, 11(x11)
+nor x6, x15, x25
+lui x27, 1048
+sll x15, x29, x22
+xori x29, x30, 1715
+sw x20, 71(x31)

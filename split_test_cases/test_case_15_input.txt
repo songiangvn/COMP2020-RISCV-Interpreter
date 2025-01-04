@@ -1,0 +1,123 @@
+## start[1] = 38
+## start[2] = 89
+## start[3] = 15
+## start[4] = 33
+## start[5] = 3
+## start[6] = 62
+## start[7] = 17
+## start[8] = 99
+## start[9] = 12
+## start[10] = 11
+## start[11] = 58
+## start[12] = 21
+## start[13] = 66
+## start[14] = 92
+## start[15] = 17
+## start[16] = 74
+## start[17] = 2
+## start[18] = 34
+## start[19] = 1
+## start[20] = 24
+## start[21] = 21
+## start[22] = 47
+## start[23] = 32
+## start[24] = 66
+## start[25] = 43
+## start[26] = 87
+## start[27] = 60
+## start[28] = 94
+## start[29] = 1
+## start[30] = 48
+## start[31] = 9
+lb x3, 45(x29)
+sb x7, 70(x12)
+sll x17, x20, x25
+lui x22, -646
+lw x13, 23(x13)
+lui x6, 1831
+lui x25, -975
+nor x6, x15, x5
+add x20, x22, x1
+or x4, x29, x3
+lui x1, -1174
+xori x14, x20, -485
+lb x13, 83(x24)
+lui x31, 861
+lui x29, 586
+sll x27, x14, x22
+slti x9, x4, 884
+xori x9, x11, -1520
+lui x19, 682
+slt x10, x5, x3
+lui x23, 861
+ori x13, x19, 307
+add x18, x19, x25
+addi x4, x20, 1292
+lui x15, 1749
+and x16, x25, x21
+sll x28, x24, x22
+sll x29, x25, x31
+sra x20, x27, x15
+ori x1, x1, -1636
+slti x8, x25, 1831
+slt x5, x27, x4
+and x10, x18, x4
+or x29, x21, x1
+lui x22, -1953
+xor x2, x1, x18
+sw x24, 60(x26)
+and x25, x24, x16
+lw x20, 44(x16)
+lb x20, 24(x23)
+sb x15, 12(x20)
+lui x3, 1548
+lui x1, 1893
+slti x11, x29, 1069
+lui x12, -1064
+sb x24, 63(x10)
+lui x31, -529
+sra x24, x22, x28
+lw x25, 98(x24)
+slti x1, x11, 325
+sw x22, 38(x6)
+and x23, x20, x30
+sb x28, 49(x30)
+sb x21, 37(x18)
+add x31, x3, x3
+slti x1, x11, -147
+sb x4, 35(x27)
+addi x24, x12, -1291
+slti x23, x29, -570
+ori x27, x7, 1266
+nor x20, x13, x17
+lui x21, -1572
+sw x13, 54(x15)
+lui x7, 652
+sll x7, x11, x7
+lw x11, 33(x15)
+sll x21, x21, x30
+nor x21, x21, x31
+addi x28, x26, 391
+addi x31, x12, 1417
+sll x15, x27, x21
+sw x17, 12(x15)
+lui x10, 1240
+sw x22, 91(x19)
+lui x27, -66
+sw x27, 22(x6)
+addi x30, x21, -1661
+xori x31, x8, 1876
+slti x27, x25, 117
+lui x27, 2026
+xori x22, x9, 612
+lui x12, 1976
+lb x12, 77(x2)
+slti x14, x14, 747
+sb x14, 18(x7)
+lui x2, 1336
+lui x15, 1461
+xor x12, x26, x26
+sll x31, x2, x2
+sw x25, 79(x14)
+lb x26, 99(x4)
+xor x24, x27, x17

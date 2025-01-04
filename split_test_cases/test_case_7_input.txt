@@ -1,0 +1,3 @@
+## start[1] = 0xFFFFFFFC
+## start[3] = 0x12345678
+SW x3, 0(x1)

@@ -1,0 +1,117 @@
+## start[1] = 11
+## start[2] = 44
+## start[3] = 6
+## start[4] = 21
+## start[5] = 69
+## start[6] = 85
+## start[7] = 6
+## start[8] = 39
+## start[9] = 56
+## start[10] = 7
+## start[11] = 56
+## start[12] = 26
+## start[13] = 88
+## start[14] = 91
+## start[15] = 71
+## start[16] = 29
+## start[17] = 17
+## start[18] = 24
+## start[19] = 63
+## start[20] = 24
+## start[21] = 71
+## start[22] = 88
+## start[23] = 14
+## start[24] = 94
+## start[25] = 15
+## start[26] = 7
+## start[27] = 42
+## start[28] = 99
+## start[29] = 91
+## start[30] = 77
+## start[31] = 72
+sll x21, x30, x8
+lui x13, -569
+sll x23, x28, x2
+lui x26, -370
+lui x26, 1263
+sw x23, 51(x7)
+add x27, x26, x29
+sll x19, x12, x4
+ori x27, x25, 767
+sra x17, x11, x14
+xori x9, x22, -1152
+or x23, x2, x9
+andi x27, x22, -966
+lw x26, 4(x19)
+lui x10, 1580
+xori x23, x5, -129
+lui x4, -1160
+sub x5, x21, x5
+sw x9, 28(x18)
+slti x18, x5, 861
+xor x24, x1, x8
+xori x14, x10, 816
+sb x24, 54(x2)
+lui x24, -1304
+addi x22, x5, 342
+slt x25, x23, x12
+lui x21, 996
+xori x3, x24, -406
+andi x28, x25, 1921
+andi x14, x3, -316
+add x31, x15, x6
+addi x16, x10, -41
+sll x9, x11, x21
+lui x29, -1987
+andi x13, x30, -497
+xori x20, x6, -19
+andi x13, x21, -682
+xori x11, x1, 809
+sll x29, x11, x18
+ori x22, x1, 498
+lui x6, 827
+sb x30, 96(x28)
+xor x12, x18, x3
+xori x13, x12, 1541
+sll x8, x1, x25
+sb x30, 28(x9)
+lui x21, -1172
+lui x24, 981
+lui x30, -1174
+lui x25, 1241
+nor x13, x23, x23
+xori x1, x1, 620
+nor x16, x27, x27
+addi x5, x21, -1213
+sub x17, x7, x5
+and x18, x3, x27
+sb x23, 83(x8)
+lui x22, -1751
+lb x15, 53(x19)
+sll x28, x14, x10
+add x13, x7, x6
+sb x21, 80(x15)
+lui x13, -269
+slti x5, x20, 57
+nor x24, x6, x12
+lb x19, 16(x4)
+sw x2, 76(x31)
+sw x12, 38(x7)
+xori x30, x3, -514
+xori x5, x28, -1714
+sb x24, 63(x19)
+addi x21, x10, -1738
+lw x26, 1(x17)
+slt x20, x5, x30
+sb x28, 47(x7)
+lui x3, -1261
+sw x25, 19(x2)
+lw x27, 30(x20)
+andi x22, x13, -1040
+sb x30, 89(x21)
+xori x4, x8, -607
+lb x11, 44(x7)
+lui x24, -191
+sra x11, x9, x4
+sb x23, 17(x24)
+add x15, x6, x1

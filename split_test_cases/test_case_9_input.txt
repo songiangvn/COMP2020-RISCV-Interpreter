@@ -1,0 +1,61 @@
+## start[1] = 89
+## start[2] = 98
+## start[3] = 49
+## start[4] = 14
+## start[5] = 52
+## start[6] = 23
+## start[7] = 31
+## start[8] = 33
+## start[9] = 7
+## start[10] = 89
+## start[11] = 97
+## start[12] = 94
+## start[13] = 54
+## start[14] = 53
+## start[15] = 21
+## start[16] = 49
+## start[17] = 97
+## start[18] = 90
+## start[19] = 68
+## start[20] = 19
+## start[21] = 91
+## start[22] = 1
+## start[23] = 56
+## start[24] = 73
+## start[25] = 31
+## start[26] = 67
+## start[27] = 14
+## start[28] = 29
+## start[29] = 29
+## start[30] = 44
+## start[31] = 93
+or x28, x17, x19
+xori x18, x5, -1106
+ori x5, x7, -1816
+xor x25, x21, x3
+lui x22, -329
+sra x27, x1, x7
+sw x6, 72(x25)
+sub x17, x23, x28
+lui x12, 1754
+ori x23, x17, -163
+lui x22, 121
+slti x3, x31, 451
+addi x28, x3, 985
+and x28, x15, x7
+sb x26, 48(x16)
+sb x15, 75(x29)
+sb x7, 10(x9)
+or x22, x2, x23
+xori x23, x23, 458
+sw x15, 30(x16)
+nor x14, x4, x29
+lb x1, 52(x25)
+addi x27, x10, 968
+sll x20, x28, x31
+slti x15, x3, 1964
+andi x10, x13, 792
+sb x24, 33(x4)
+addi x9, x18, -1956
+xori x29, x20, 409
+sub x3, x18, x3

@@ -64,7 +64,8 @@ void init(registers_t *starting_registers)
     registers = starting_registers;
     // TODO: initialize any additional variables needed for state
     myTable = ht_init(8192);
-    registers->r[0] = 0; // x0 = 0
+    for (int i = 0; i < 32; i++)
+        registers->r[i] = 0; // xi = 0
 }
 
 enum operation
@@ -140,7 +141,7 @@ int converter(char *s)
     if (s[0] == 'x')
         return atoi(s + 1);
     // case when s is a hexadecimal number
-    if (s[1] == 'x' || s[0] == '0') // case 0x - hexadecimal number
+    if (s[1] == 'x' && s[0] == '0') // case 0x - hexadecimal number
         return (int)strtol(s, NULL, 0);
     return atoi(s);
 }
