@@ -1,0 +1,48 @@
+## start[1] = 61
+## start[2] = 25
+## start[3] = 70
+## start[4] = 76
+## start[5] = 63
+## start[6] = 3
+## start[7] = 12
+## start[8] = 83
+## start[9] = 75
+## start[10] = 3
+## start[11] = 60
+## start[12] = 10
+## start[13] = 65
+## start[14] = 1
+## start[15] = 53
+## start[16] = 0
+## start[17] = 13
+## start[18] = 77
+## start[19] = 62
+## start[20] = 49
+## start[21] = 34
+## start[22] = 24
+## start[23] = 54
+## start[24] = 24
+## start[25] = 48
+## start[26] = 85
+## start[27] = 43
+## start[28] = 2
+## start[29] = 25
+## start[30] = 57
+## start[31] = 91
+## start[32] = 75
+lui x0, -1560
+slti x6, x27, -1950
+addi x16, x10, 1934
+slti x31, x10, 1949
+xori x3, x14, 1162
+addi x31, x23, -1833
+xori x26, x10, 1213
+slti x25, x27, 1162
+xori x19, x21, -1579
+lw x25, 0x2E3A(x29)
+lb x17, 0xE892(x6)
+lw x7, 0xA786(x8)
+sw x14, 0xDAAA(x17)
+lui x28, -1249
+sra x28, x15, x13
+lui x0, 951

@@ -1,0 +1,39 @@
+## start[1] = 20
+## start[2] = 67
+## start[3] = 24
+## start[4] = 90
+## start[5] = 39
+## start[6] = 63
+## start[7] = 31
+## start[8] = 24
+## start[9] = 64
+## start[10] = 94
+## start[11] = 29
+## start[12] = 7
+## start[13] = 42
+## start[14] = 15
+## start[15] = 8
+## start[16] = 17
+## start[17] = 4
+## start[18] = 83
+## start[19] = 72
+## start[20] = 64
+## start[21] = 12
+## start[22] = 44
+## start[23] = 7
+## start[24] = 37
+## start[25] = 77
+## start[26] = 97
+## start[27] = 78
+## start[28] = 11
+## start[29] = 55
+## start[30] = 7
+## start[31] = 18
+## start[32] = 15
+ori x5, x8, -1316
+lw x27, 0xB4A4(x7)
+lw x7, 0x33EE(x19)
+lui x28, -361
+lui x18, 1526
+lui x18, 1203
+lw x3, 0xFA7E(x16)

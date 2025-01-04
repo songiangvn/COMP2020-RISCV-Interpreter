@@ -1,0 +1,35 @@
+## start[1] = 90
+## start[2] = 71
+## start[3] = 93
+## start[4] = 53
+## start[5] = 29
+## start[6] = 27
+## start[7] = 15
+## start[8] = 95
+## start[9] = 92
+## start[10] = 19
+## start[11] = 24
+## start[12] = 65
+## start[13] = 1
+## start[14] = 60
+## start[15] = 58
+## start[16] = 91
+## start[17] = 62
+## start[18] = 89
+## start[19] = 23
+## start[20] = 67
+## start[21] = 4
+## start[22] = 0
+## start[23] = 100
+## start[24] = 76
+## start[25] = 95
+## start[26] = 72
+## start[27] = 12
+## start[28] = 40
+## start[29] = 51
+## start[30] = 27
+## start[31] = 47
+## start[32] = 78
+lui x12, 480
+lb x5, 0x4CFF(x23)
+lb x19, 0xE86D(x28)

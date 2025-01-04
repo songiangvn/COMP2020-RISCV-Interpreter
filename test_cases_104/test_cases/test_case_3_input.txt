@@ -1,0 +1,3 @@
+## start[1] = 0xFFFFFFFF
+## start[2] = 0xAAAAAAAA
+AND x3, x1, x2

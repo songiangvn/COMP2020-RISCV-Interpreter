@@ -1,0 +1,36 @@
+## start[1] = 9
+## start[2] = 28
+## start[3] = 23
+## start[4] = 60
+## start[5] = 8
+## start[6] = 79
+## start[7] = 3
+## start[8] = 21
+## start[9] = 44
+## start[10] = 19
+## start[11] = 15
+## start[12] = 47
+## start[13] = 8
+## start[14] = 93
+## start[15] = 50
+## start[16] = 82
+## start[17] = 48
+## start[18] = 25
+## start[19] = 74
+## start[20] = 1
+## start[21] = 74
+## start[22] = 93
+## start[23] = 68
+## start[24] = 61
+## start[25] = 81
+## start[26] = 76
+## start[27] = 91
+## start[28] = 78
+## start[29] = 89
+## start[30] = 67
+## start[31] = 19
+## start[32] = 91
+lui x15, -1436
+lui x30, 790
+lui x30, 695
+lui x21, 862

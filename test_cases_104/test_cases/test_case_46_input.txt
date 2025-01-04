@@ -1,0 +1,39 @@
+## start[1] = 59
+## start[2] = 20
+## start[3] = 43
+## start[4] = 31
+## start[5] = 73
+## start[6] = 94
+## start[7] = 98
+## start[8] = 41
+## start[9] = 91
+## start[10] = 56
+## start[11] = 10
+## start[12] = 66
+## start[13] = 17
+## start[14] = 0
+## start[15] = 49
+## start[16] = 18
+## start[17] = 68
+## start[18] = 54
+## start[19] = 53
+## start[20] = 2
+## start[21] = 92
+## start[22] = 89
+## start[23] = 91
+## start[24] = 81
+## start[25] = 42
+## start[26] = 90
+## start[27] = 52
+## start[28] = 37
+## start[29] = 8
+## start[30] = 50
+## start[31] = 89
+## start[32] = 5
+sb x15, 0xF32F(x28)
+lui x18, 1169
+sb x10, 0x401E(x3)
+lw x7, 0xBAB8(x15)
+lw x4, 0xDE98(x14)
+sw x29, 0x588E(x7)
+sw x6, 0xCD74(x3)

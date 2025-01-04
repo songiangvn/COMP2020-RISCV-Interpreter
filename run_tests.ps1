@@ -1,4 +1,4 @@
-$TEST_DIR = "D:\OneDrive_VinUni\OneDrive - VINACADEMY LLC\CourseData\Computer Organization\Project_RISCV\COMP2020_RISCV_Interpreter\tests"
+$TEST_DIR = "D:\OneDrive_VinUni\OneDrive - VINACADEMY LLC\CourseData\Computer Organization\Project_RISCV\COMP2020_RISCV_Interpreter\test_cases_104"
 $EXECUTABLE = "D:\OneDrive_VinUni\OneDrive - VINACADEMY LLC\CourseData\Computer Organization\Project_RISCV\COMP2020_RISCV_Interpreter\riscv_interpreter.exe"
 
 # Kiểm tra xem file thực thi có tồn tại không
@@ -17,7 +17,7 @@ if (-Not (Test-Path $TEST_DIR)) {
 Get-ChildItem "$TEST_DIR\*_input.txt" | ForEach-Object {
     $INPUT_FILE = $_.FullName
     $BASE_NAME = $_.BaseName
-
+    Write-Host $BASE_NAME
     # Loại bỏ hậu tố "_input"
     $BASE_NAME = $BASE_NAME -replace '_input$', ''
 
@@ -36,11 +36,7 @@ Get-ChildItem "$TEST_DIR\*_input.txt" | ForEach-Object {
     # Chạy chương trình và lưu kết quả thực tế vào file
     Get-Content $INPUT_FILE | & $EXECUTABLE -d | Where-Object { $_ -notmatch "^\(DEBUG:" } > $ACTUAL_FILE  
 
-
-
     # Get-Content $INPUT_FILE | & $EXECUTABLE -d
-
-
 
     # So sánh file kết quả thực tế với kết quả mong đợi
     if (Compare-Object (Get-Content $ACTUAL_FILE) (Get-Content $EXPECTED_FILE)) {
