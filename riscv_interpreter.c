@@ -65,6 +65,7 @@ void handle_start(char *s, registers_t *registers)
     if (r > 0 && r < 32)
     {
         registers->r[r] = v;
+        // fprintf(stdout, "Check: r[%d] = 0x%x\n", r, v);
     }
 }
 

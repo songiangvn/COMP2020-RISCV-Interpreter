@@ -114,26 +114,26 @@ enum operation op_type(const char *op)
     return UNKNOWN; // If no match is found, return UNKNOWN
 }
 
-char *strsep(char **stringp, const char *delim)
-{
-    if (!stringp || !*stringp)
-        return NULL;
+// char *strsep(char **stringp, const char *delim)
+// {
+//     if (!stringp || !*stringp)
+//         return NULL;
 
-    char *start = *stringp;
-    char *end = strpbrk(start, delim);
+//     char *start = *stringp;
+//     char *end = strpbrk(start, delim);
 
-    if (end)
-    {
-        *end = '\0';        // Replace delimiter with null terminator
-        *stringp = end + 1; // Move pointer to the next character after delimiter
-    }
-    else
-    {
-        *stringp = NULL; // No more tokens
-    }
+//     if (end)
+//     {
+//         *end = '\0';        // Replace delimiter with null terminator
+//         *stringp = end + 1; // Move pointer to the next character after delimiter
+//     }
+//     else
+//     {
+//         *stringp = NULL; // No more tokens
+//     }
 
-    return start;
-}
+//     return start;
+// }
 
 int converter(char *s)
 {
@@ -142,6 +142,8 @@ int converter(char *s)
         return atoi(s + 1);
     // case when s is a hexadecimal number
     if (s[1] == 'x' && s[0] == '0') // case 0x - hexadecimal number
+        return (int)strtol(s, NULL, 0);
+    if (s[0] == '-' && s[1] == '0' && s[2] == 'x') // case -0x - negative hexadecimal number
         return (int)strtol(s, NULL, 0);
     return atoi(s);
 }
@@ -186,10 +188,10 @@ void Execute_R_Type(char *op, char *instruction, registers_t *registers)
         registers->r[rd] = (registers->r[rs1] < registers->r[rs2]) ? 1 : 0;
         break;
     case SLL:
-        registers->r[rd] = registers->r[rs1] << registers->r[rs2];
+        registers->r[rd] = registers->r[rs1] << (registers->r[rs2] & 0x1F);
         break;
     case SRA:
-        registers->r[rd] = registers->r[rs1] >> registers->r[rs2];
+        registers->r[rd] = registers->r[rs1] >> (registers->r[rs2] & 0x1F);
         break;
     default:
         break;

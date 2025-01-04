@@ -1,3 +1,4 @@
+## start[3] = 10
 ## start[1] = 0x80000000
 ## start[2] = 0xFFFFFFFF
 SUB x3, x1, x2
